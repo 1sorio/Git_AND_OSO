@@ -1,5 +1,13 @@
-import app from './app.js';
-import {connectDB } from './db.js';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
-connectDB();
-app.listen(5001, () => console.log('Server on port 5001'));
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+
