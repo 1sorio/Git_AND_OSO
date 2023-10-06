@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #000000;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+  }
+  
+  .catalog-options {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .catalog-options button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #09F;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  
+
+/* Estilo para el footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Estilo para los enlaces del footer */
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #999;
+  }
+  
+  /* Agrega un estilo adicional para la descripción */
+  .footer-description {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  
